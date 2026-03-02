@@ -138,7 +138,7 @@ body {
 }
 
 .abouttxt {
-    width: 100%;
+    width: auto;
     min-height: 100vh;
     background-color: black;
 
@@ -146,6 +146,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 70vh;
+    flex-wrap: wrap;
 }
 
 /* Main Card */
@@ -356,4 +357,5 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: #ff7300;
 }
+
 
